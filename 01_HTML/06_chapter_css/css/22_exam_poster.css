@@ -1,0 +1,13 @@
+#container{
+    margin: 0 auto;
+    width: 800px;
+ 
+}
+table, th, td{
+    border: 1px solid black;
+    /* 선사이 간격 붙이기 */
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}

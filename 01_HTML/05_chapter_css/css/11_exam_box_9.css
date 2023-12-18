@@ -1,0 +1,19 @@
+h3{
+    border-left: 5px solid blue;
+}
+p{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+ul{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 5px;
+    padding: 20px;
+}
+li{
+    /* 안쪽 여백 - 위쪽 */
+    padding-top: 10px;
+    /* 바깥 여백 */
+    margin-left: 20px;
+}

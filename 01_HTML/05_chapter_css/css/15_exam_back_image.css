@@ -1,0 +1,26 @@
+body{
+    background-image: url("../image/카드.jpg");
+    background-repeat: no-repeat;
+}
+p{
+    font-size: 20px;
+    /* 바깥 여백 위쪽 */
+    margin-top: 160px;
+    /* 바깥 여백 왼쪽 */
+    margin-left: 130px;
+    /* 가로 크기 */
+    width: 280px;
+}
+div{
+    /* 가로크기 */
+    width: 120px;
+    /* 바깥 여백 왼쪽 */
+    margin-left: 210px;
+    /* 바깥 여백 위쪽 */
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    /* 안쪽 여백 */
+    padding: 8px;
+}

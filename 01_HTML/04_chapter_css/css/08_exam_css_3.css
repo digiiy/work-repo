@@ -1,0 +1,15 @@
+h2{
+    font-weight: bold;
+}
+ul{
+    font-weight: bold;
+}
+li{
+    list-style-image: url("../css/img/화살표.gif");
+}
+
+
+p{
+    color: green;
+    text-decoration: underline;
+}

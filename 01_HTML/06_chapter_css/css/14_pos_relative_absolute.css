@@ -1,0 +1,23 @@
+/* 부모(relative) + 자식(absolute)를 같이 사용하면 
+   TODO : 자식 div 태그에 absolute 의 (0,0) 웹 브라우저가
+   TODO : 아니라 부모 div 박스의 왼쪽/위 모서리로 변경됨 
+   TODO : 부모 태그가 이동하면 자식 태그도 자동으로 이동됨
+*/
+   
+/* 부모 박스 */
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    /* 부모에 상대좌표를 넣어준다. */
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* 절대좌표 */
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

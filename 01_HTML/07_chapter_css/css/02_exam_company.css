@@ -1,0 +1,88 @@
+/* 여백 초기화 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* 목록 점 없애기 */
+li{
+    list-style-type: none;
+}
+
+/* 전체 페이지 */
+#page{
+    width: 995px;
+    margin: 0 auto;
+    
+}
+
+/* 머리말 디자인 */
+header{
+    width: 995px;
+    height: 100px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* 로고 디자인 */
+#logo {
+    float: left;
+}
+
+/* 소메뉴 디자인 */
+#top{
+    float: right;
+    margin-top: 30px;
+}
+
+/* 더비 div : float 부작용 제거 */
+.clear{
+    clear: both;
+}
+
+/* 대메뉴 크기 */
+nav{
+    width: 995px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+/* 대메뉴(이미지들) */
+/* 가로 배치 방법 : display(inline-block) or float:left */
+nav li{
+    display: inline-block;
+    width: 150px;
+}
+
+/* 본문 : 좌측 */
+section{
+    float: left;
+    width: 600px;
+}
+
+/* 사이드바 : 우측 */
+aside{
+    float:right;
+    width: 370px;
+}
+
+/* 꼬리말 */
+footer{
+    width: 995px;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px solid #cccccc;
+}
+
+/* 꼬리말안에 있는 주소 */
+#address {
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* 꼬리말 - 고객센터 */
+#customer {
+    /* 오른쪽 배치 */
+    float: right;
+    margin-top: 20px;
+}

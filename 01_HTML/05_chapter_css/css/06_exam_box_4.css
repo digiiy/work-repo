@@ -1,0 +1,22 @@
+#title1{
+    border-top: 2px solid black;
+    /* 안쪽 여백 */
+    padding: 5px;
+    /* 가로 크기 */
+    width: 340px;
+}
+#title2{
+    border-left: 10px solid palevioletred;
+    /* 안쪽 여백 */
+    padding: 5px;
+}
+#title3{
+    border: 2px solid skyblue;
+    /* TODO: 둥근 사각형 속성 */
+    /* TODO: 사용법 - border-radius: 크기; (크기가 클수록 더 원형이 된다) */
+    border-radius: 3px;
+    /* 안쪽 여백 */
+    padding: 5px;
+    /* 가로 크기 */
+    width: 340px;
+}

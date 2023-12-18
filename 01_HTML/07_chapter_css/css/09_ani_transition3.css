@@ -1,0 +1,37 @@
+/* 공통속성 : 2개의 div에 모두 디자인 됨 */
+div{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    /* 좌측 배치 == 가로 배치 (display: inline-block) */
+    float: left;
+}
+
+/* 1st 박스 */
+.bg-tr{
+    /* 배경색 */
+    background-color: skyblue;
+    /* TODO: 애니메이션 부여 */
+    /* ease : 시작은 천천히 중간은 빠르고 끝은 천천히 */
+    transition: all ease-in 5s;
+}
+/* 1st 박스에 마우스가 위로 */
+.bg-tr:hover{
+    background-color: blue;
+}
+
+/* 2st 박스 */
+.border-tr{
+    /* 배경색 */
+    background-color: orange;
+    /* TODO: 애니메이션 부여 */
+    /* linear : 등속 == 시작 중간 끝 속도가 같음 */
+    transition: all linear 5s;
+}
+/* 2st 박스에 마우스가 위로 */
+.border-tr:hover{
+    background-color: red;
+    /* 둥근 사각형 50%부터 원이 된다. */
+    border-radius: 50%;
+}
+

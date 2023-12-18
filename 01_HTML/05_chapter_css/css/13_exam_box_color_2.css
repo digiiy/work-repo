@@ -1,0 +1,29 @@
+/* css 디자인 여백 초기화 */
+/* 웹브라우저 (크롬, 익스플로러, 파이어폭스 등) */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#banner{
+    background-color: rgb(231, 164, 203);
+    padding: 10px;
+    /* 가로 크기 */
+    width: 320px;
+    /* 세로 크기 */
+    height: 180px;
+    /* 글자 정렬 */
+    text-align: start;
+    /* 외곽선 */
+    border: 2px solid #cccccc;
+}
+#button{
+    background-color: indianred;
+    width: 100px;
+    /* 둥근 사각형(모서리) */
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}

@@ -1,0 +1,22 @@
+/* float 속성 특징 : float 걸린 태그는 떠있음 */
+/* float 밑에 있는 태그들이 높이가 없다고 가정하여 위로 말려 올라옴 */
+/* 여백 초기화 */
+*{
+    padding: 0;
+    margin: 0;
+}
+#image{
+    border: 2px solid red;
+    float: left;
+}
+#image1{
+    float: left;
+    border: 2px solid red;
+    width: 300px;
+    margin-left: 30px;
+}
+#menu{
+    float: right;
+    border: 2px solid red;
+    list-style-type: none;
+}

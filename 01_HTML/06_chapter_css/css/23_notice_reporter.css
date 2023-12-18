@@ -1,0 +1,52 @@
+body {
+    background-color: #02233b;
+}
+
+/* TODO: 문제 풀이 */
+#container {
+    /* 가로 */
+    width: 600px;
+    /* 세로 */
+    height: 700px;
+    /* 중앙 정렬 */
+    margin: 0 auto;
+    background-color: white;
+    background-image: url(../img/KakaoTalk_20230811_172310501.png);
+    /* 사진 여려개나오는거 한개로 */
+    background-repeat: no-repeat;
+    padding: 25px;
+    /* 배경이미지 위치 이동 */
+    background-position: 100% 100%;
+    border: 1px solid gray;
+}
+
+img {
+    margin: 30px 10px 30px 180px;
+}
+
+h1 {
+    background-color: #004344;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #cf3b00;
+}
+
+ul {
+    margin: 20px;
+    list-style-type: none;
+}
+
+li {
+    line-height: 30px;
+}

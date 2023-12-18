@@ -1,0 +1,17 @@
+body{
+    background-color: yellow;
+}
+
+
+#button{
+    background-color: blue;
+    color: white;
+    /* 안쪽여백 */
+    padding: 15px;
+    /* 글자정렬 */
+    text-align: center;
+    /* 세로크기 */
+    height: 25px;
+    /* 가로크기 */
+    width: 120px;
+}

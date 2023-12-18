@@ -1,0 +1,12 @@
+h3{
+    color: blue;
+    font-weight: bold;
+}
+li{
+    list-style-type: square;
+    font-size: 16px;
+    
+}
+span{
+    font-weight: bold;
+}

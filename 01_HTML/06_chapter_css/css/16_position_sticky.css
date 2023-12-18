@@ -1,0 +1,9 @@
+/* position : sticky (고정) 메뉴 or 아이콘 고정 */
+.top-bar{
+    height: 50px;
+    background-color: blue;
+    /* 고정, 좌표 부활(left/top/right/bottom) */
+    position: sticky;
+    top: 0;
+    
+}

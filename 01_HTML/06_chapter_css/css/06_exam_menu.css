@@ -1,0 +1,27 @@
+li{
+    /* 앞에 점 없애기 */
+    list-style-type: none;
+}
+
+/* 세로 메뉴 디자인 */
+#v{
+    width: 150px;
+}
+/* 후손 선택자 스타일 */
+#v li{
+    padding: 5px;
+    /* 점선 */
+    border-bottom: 1px dotted black;
+}
+
+/* 가로 메뉴 디자인 */
+/* 후손 선택자 스타일 */
+#h li{
+    /* display : 가로배치 */
+    display: inline-block;
+}
+.menus{
+    color: green;
+    margin-left: 20px;
+    margin-right: 20px;
+}

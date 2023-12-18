@@ -1,0 +1,20 @@
+li{
+    list-style-type: none;
+}
+#logo{
+    float: left;
+}
+#menu{
+    float: right;
+    font-size: 14px;
+    margin-top: 20px;
+    
+}
+#menu li{
+    display: inline-block;
+}
+#main_image{
+    /* 본문 이미지 : float 효과 제거 */
+    clear : both;
+    padding-top: 20px;
+}

@@ -1,0 +1,31 @@
+/* lnline-block : div 속성 + 줄바꿈 없음 */
+/* 세로배치를 가로배치로 바꾸고 싶을떄 사용 */
+/* 예) ui - li(block속성, 세로메뉴) -> 가로메뉴(위의 속성 고려) */
+.box{
+    /* 가로크기 */
+    width:100px;
+    height:100px;
+    background-color:red;
+    /* 바깥 여백 */
+    margin: 20px;
+    /* display 속성 */
+    display: inline-block;
+}
+.box2{
+    /* 가로크기 */
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    /* 바깥 여백 */
+    margin: 20px;
+    display: inline-block;
+}
+.box3{
+    /* 가로크기 */
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    /* 바깥 여백 */
+    margin: 20px;
+    display: inline-block;
+}

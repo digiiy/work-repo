@@ -1,0 +1,30 @@
+body{
+    /* 글자색 */
+    color: #444444;
+}
+h3{
+    border-left: 4px solid green;
+    /* 안쪽 여백 왼쪽 */
+    padding-left: 10px;
+}
+div{
+    width: 610px;
+    text-align: right;
+}
+table, td{
+    border: 1px solid black;
+}
+table{
+    font-size: 12px;
+    width: 610px;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 15px;
+}
+tr{
+    height: 60px;
+}
+td{
+    width: 76px;
+    padding: 5px;
+}

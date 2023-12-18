@@ -1,0 +1,14 @@
+p{
+    color: green;
+}
+span{
+    /* 폰트 스타일 */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* 글자 크기 */
+    font-size: 18px;
+    color: blue;
+    /* 굵은 글씨 */
+    font-weight: bold;
+    /* 밑줄 */
+    text-decoration: underline;
+}

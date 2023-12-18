@@ -1,0 +1,12 @@
+h3{
+    color: blue;
+    /* 폰트 스타일 : 맑은 고딕 등 */
+    /* font-family: '맑은 고딕'; */
+    font-family: '맑은 고딕';
+}
+
+l1{
+    /* 목록 앞에 점 없애기 */
+    list-style-type: none;
+    
+}
